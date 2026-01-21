@@ -16,7 +16,7 @@ export default function Home() {
         <div className="prose prose-lg max-w-none mt-8">
             <div className="text-gray-700 leading-relaxed space-y-8">
               <p className="text-xl leading-relaxed">
-                As a <strong>Founding Developer</strong> with a <strong>Master’s in Communications</strong>, I am uniquely experienced in translating complex systems into real value, where answering the "why" is as important as the "what".
+                As a <strong>Founding Developer</strong> with a <strong>Master’s in Communications</strong>, I am uniquely experienced in translating complex systems into real value, where answering the &quot;why&quot; is as important as the &quot;what&quot;.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-12">
@@ -35,7 +35,7 @@ export default function Home() {
               </div>
               
               <p className="text-lg leading-relaxed">
-                Whether it's leading a legacy migration, designing a recommendation engine, or authoring a knowledge base, I focus on the <strong>semantics</strong> of technology—what it means, why it matters, and how it shifts behavior.
+                Whether it&apos;s leading a legacy migration, designing a recommendation engine, or authoring a knowledge base, I focus on the <strong>semantics</strong> of technology—what it means, why it matters, and how it shifts behavior.
               </p>
             </div>
           </div>

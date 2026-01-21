@@ -61,13 +61,13 @@ export default function CaseStudies() {
           >
             <div className="space-y-4">
               <p className="text-gray-700">
-                Cursor and Kiro have dominated the conversational landscape of development in the past few months, the coding world even got a new and special term for their potential misapplication: "vibe-coding." But these platforms are "quality-in-quality-out" systems. Development with them requires a different approach from traditional development, especially in greenfield environments.
+                Cursor and Kiro have dominated the conversational landscape of development in the past few months, the coding world even got a new and special term for their potential misapplication: &quot;vibe-coding.&quot; But these platforms are &quot;quality-in-quality-out&quot; systems. Development with them requires a different approach from traditional development, especially in greenfield environments.
               </p>
               <p className="text-gray-700">
                 We can use `.cursorrules` and `project md` files to steer this process somewhat, reining in AI stochasticity and thereby hallucination, but this only abstracts the problem by a single degree. I realized in the course of development that what was needed was a meta layer: hierarchical, ordinal contexts for the agent to follow, giving it a better sense of space, scale, and arrangement.
               </p>
               <p className="text-gray-700">
-                So I built a vertical slice of a long-held concept, "Reko," in a single day, by resolving that question with a protocol I call DOCTIO. DOCTIO is a governance layer for steering documentation. It is a platform-agnostic workflow that gives the agent not only the "Five Ws" it needs to do its best work, but also dictates priority.
+                So I built a vertical slice of a long-held concept, &quot;Reko,&quot; in a single day, by resolving that question with a protocol I call DOCTIO. DOCTIO is a governance layer for steering documentation. It is a platform-agnostic workflow that gives the agent not only the &quot;Five Ws&quot; it needs to do its best work, but also dictates priority.
               </p>
               <p className="text-gray-700">
                 DOCTIO enforces a strict hierarchy of needs that the AI must respect:
@@ -79,10 +79,10 @@ export default function CaseStudies() {
                 <li>Tests (What is success? More on this in a moment.)</li>
               </ol>
               <p className="text-gray-700">
-                These four layers are fleshed out completely before finally moving to the fifth step: Implementation. You read that right: this is pure TDD, especially from the agent's perspective. We define what is acceptable and what acceptable looks like before EVER beginning implementation.
+                These four layers are fleshed out completely before finally moving to the fifth step: Implementation. You read that right: this is pure TDD, especially from the agent&apos;s perspective. We define what is acceptable and what acceptable looks like before EVER beginning implementation.
               </p>
               <p className="text-gray-700">
-                All of this information is passed in through markdown documents at a fraction of the models' context windows, and yet during implementation it now has the context necessary for deterministic, standardized, internally-consistent output. Obviously, MCP use only enhances the effect and ease.
+                All of this information is passed in through markdown documents at a fraction of the models&apos; context windows, and yet during implementation it now has the context necessary for deterministic, standardized, internally-consistent output. Obviously, MCP use only enhances the effect and ease.
               </p>
               <p className="text-gray-700">
                 Optimization, the final, ever-evolving step, is handled through two specific types of documents:
@@ -92,13 +92,13 @@ export default function CaseStudies() {
                 <li>The Instructional Order: A change to the foundational documents themselves (leaving MVP, new ethical considerations, etc.)</li>
               </ol>
               <p className="text-gray-700">
-                With these, the realities of development - that no plans survive first contact with the enemy - are accepted and integrated into the process itself. Where traditional steering docs capture basic rules, DOCTIO provides the process for evolution. If the implementation conflicts with the Domain, the agent knows exactly which one wins. It steers "vibe-coding" into deterministic engineering.
+                With these, the realities of development - that no plans survive first contact with the enemy - are accepted and integrated into the process itself. Where traditional steering docs capture basic rules, DOCTIO provides the process for evolution. If the implementation conflicts with the Domain, the agent knows exactly which one wins. It steers &quot;vibe-coding&quot; into deterministic engineering.
               </p>
               <p className="text-gray-700">
-                One more word about testing in DOCTIO: Beyond just a step in the process, there is more to how the protocol applies tests than meets the eye. In traditional TDD, we write binary pass/fail tests. This brings attention to the failing test (Good!), but it still needs a human, with context, to resolve it (Bad - at least for autonomous agents). Binary failures can only tell the AI "No." They don't tell it "Which way?"
+                One more word about testing in DOCTIO: Beyond just a step in the process, there is more to how the protocol applies tests than meets the eye. In traditional TDD, we write binary pass/fail tests. This brings attention to the failing test (Good!), but it still needs a human, with context, to resolve it (Bad - at least for autonomous agents). Binary failures can only tell the AI &quot;No.&quot; They don&apos;t tell it &quot;Which way?&quot;
               </p>
               <p className="text-gray-700">
-                To solve this, DOCTIO establishes a "behavioral corridor" using a method I call 'ABA Triangulation.' This approach applies the principles of Control Theory and Boundary Value Analysis to AI generation.
+                To solve this, DOCTIO establishes a &quot;behavioral corridor&quot; using a method I call &apos;ABA Triangulation.&apos; This approach applies the principles of Control Theory and Boundary Value Analysis to AI generation.
               </p>
               <p className="text-gray-700">
                 By defining three different input/output sets for each test, we give the AI a complete picture of the playing field. Every test requires three anchors:
@@ -106,10 +106,10 @@ export default function CaseStudies() {
               <ul className="list-disc list-inside space-y-2 text-gray-700 ml-4">
                 <li>Anchor A (The Ceiling): The clear upper-limit boundary.</li>
                 <li>Anchor B (The Target): The original, binary test (The Expectation).</li>
-                <li>Anchor A' (The Floor): The clear lower-limit boundary.</li>
+                <li>Anchor A&apos; (The Floor): The clear lower-limit boundary.</li>
               </ul>
               <p className="text-gray-700">
-                With these points set, we aren't just checking for bugs; we are creating a feedback loop for autonomous testing. We give the agent vector-based feedback: the directionality and magnitude necessary to self-correct without human intervention. In essence, it’s like calibrating a thermostat with an upper limit, the desired temperature, and a lower limit.                 If the temperature is off, you know immediately whether to heat or cool with a single point of data.
+                With these points set, we aren&apos;t just checking for bugs; we are creating a feedback loop for autonomous testing. We give the agent vector-based feedback: the directionality and magnitude necessary to self-correct without human intervention. In essence, it’s like calibrating a thermostat with an upper limit, the desired temperature, and a lower limit.                 If the temperature is off, you know immediately whether to heat or cool with a single point of data.
               </p>
               
               <p className="text-gray-700">
@@ -185,7 +185,7 @@ export default function CaseStudies() {
           >
             <div className="space-y-4">
               <p className="text-gray-700">
-                My master's thesis, completed in 2018, exploring the relationship between societal stress and the popularity of vigilante behavior in comic books.
+                My master&apos;s thesis, completed in 2018, exploring the relationship between societal stress and the popularity of vigilante behavior in comic books.
               </p>
               <p className="text-gray-700">
                 <a href="/docs/MastersThesis_Abridged.pdf" target="_blank" className="text-gray-600 hover:text-gray-900 underline">Read the abridged thesis here.</a>
