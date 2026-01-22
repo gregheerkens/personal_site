@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Hero from '@/components/Hero';
 
 export default function Home() {
@@ -15,6 +16,16 @@ export default function Home() {
       >
         <div className="prose prose-lg max-w-none mt-8">
             <div className="text-gray-700 leading-relaxed space-y-8">
+              <div className="flex flex-col items-center mb-8">
+                <Image
+                  src="/img/portfolioC.png"
+                  alt="Portfolio"
+                  width={600}
+                  height={400}
+                  className="rounded-lg shadow-lg"
+                  priority
+                />
+              </div>
               <p className="text-xl leading-relaxed">
                 As a <strong>Founding Developer</strong> with a <strong>Master’s in Communications</strong>, I am uniquely experienced in translating complex systems into real value, where answering the &quot;why&quot; is as important as the &quot;what&quot;.
               </p>
