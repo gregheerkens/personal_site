@@ -43,12 +43,11 @@ export default function CaseStudies() {
   return (
     <div className="min-h-screen">
       <Hero 
-        title="Proof of Skill"
-        subtitle="Three artifacts that demonstrate expertise across DevRel, Narrative Strategy, and Technical Product Management."
+        title="Written Works"
+        subtitle="Artifacts that demonstrate expertise in systems thinking, technical product management, and social research."
         compact={true}
       />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
-
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 bg-white">
         {/* Case Studies Grid */}
         <div className="space-y-12 lg:space-y-16">
           {/* Blog Post: DOCTIO */}

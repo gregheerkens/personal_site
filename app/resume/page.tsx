@@ -41,8 +41,7 @@ export default function Contact() {
           <a href="http://github.com/gregheerkens" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 underline">github.com/gregheerkens</a>
         </div>
       </Hero>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
-
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 bg-white">
         {/* Resume Content */}
         <div className="space-y-12">
           {/* Summary Section */}
