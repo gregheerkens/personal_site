@@ -16,19 +16,24 @@ export default function Home() {
       >
         <div className="prose prose-lg max-w-none mt-8">
             <div className="text-gray-700 leading-relaxed space-y-8">
-              <div className="flex flex-col items-center mb-8">
-                <Image
-                  src="/img/portfolioC.png"
-                  alt="Portfolio"
-                  width={600}
-                  height={400}
-                  className="rounded-lg shadow-lg"
-                  priority
-                />
+              {/* Image and Text Side by Side */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start mb-8">
+                <div className="space-y-4">
+                  <p className="text-xl leading-relaxed">
+                    As a <strong>Founding Developer</strong> with a <strong>Master&apos;s in Communications</strong>, I am uniquely experienced in translating complex systems into real value, where answering the &quot;why&quot; is as important as the &quot;what&quot;.
+                  </p>
+                </div>
+                <div className="flex justify-center md:justify-end">
+                  <Image
+                    src="/img/portfolioC.png"
+                    alt="Portfolio"
+                    width={400}
+                    height={300}
+                    className="rounded-lg shadow-lg w-full max-w-sm"
+                    priority
+                  />
+                </div>
               </div>
-              <p className="text-xl leading-relaxed">
-                As a <strong>Founding Developer</strong> with a <strong>Master’s in Communications</strong>, I am uniquely experienced in translating complex systems into real value, where answering the &quot;why&quot; is as important as the &quot;what&quot;.
-              </p>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-12">
                 <div className="space-y-3">
